@@ -28,8 +28,6 @@ import Auth0ProviderWithHistory from './auth/auth0-provider-with-history';
 import { useAuth0 } from '@auth0/auth0-react';
 
 
-//import './index.css';
-
 const { primary_accent_color } = colors;
 
 const store = configureStore({ reducer: reducer });

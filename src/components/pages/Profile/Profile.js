@@ -14,8 +14,8 @@ const Profile = () => {
         alignItems: 'center',
         justifyContent: 'center',
         height: '100vh',
-        backgroundColor: '#f5f5f5', // Light gray background
-        color: '#333',             // Dark gray text
+        backgroundColor: '#f5f5f5', 
+        color: '#333',             
         textAlign: 'center',
       }}
     >
@@ -24,10 +24,10 @@ const Profile = () => {
         src={picture}
         alt={name}
         style={{
-          borderRadius: '50%',      // Makes the image circular
-          width: '150px',           // Image size
-          height: '150px',          // Image size
-          objectFit: 'cover',       // Ensures the image doesn't stretch
+          borderRadius: '50%',      
+          width: '150px',           
+          height: '150px',          
+          objectFit: 'cover',       
           marginBottom: '20px',
         }}
       />
